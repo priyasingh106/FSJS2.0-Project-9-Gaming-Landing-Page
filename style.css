@@ -1,0 +1,353 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat";
+}
+#hero-section{
+    display: flex;
+    margin: 0px 150px;
+    gap: 300px;
+}
+
+header{
+    background-image: url("./assets/futuristic-bg.png");
+    /* background-blend-mode: darken; */
+    /* height: 100vh;; */
+}
+#nav-bar{
+    display: flex;
+    margin: 0px 150px;
+    color: #fff;
+}
+ul{
+    display: flex;
+    list-style-type: none;
+    font-size: 20px;;
+    padding-top: 50px;;
+}
+ul li:nth-child(1){
+    margin-right: 50px;;
+}
+ul li:nth-child(2){
+    margin-right: 50px;;
+}
+ul li:nth-child(3){
+    margin-right: 50px;;
+}
+ul li:nth-child(4){
+    margin-right: 50px;;
+}
+#nav-bar img{
+    padding-top: 40px;
+    margin-right: 150px;;
+}
+#nav-bar button:nth-child(1){
+    background: transparent;
+    color: #fff;
+    padding: 15px 30px;
+    font-size: 19px;;
+    margin-top: 30px;;
+    border: 1px solid #000;
+    margin-right: 30px;;
+    margin-left: 300px;;
+}
+#nav-bar button:nth-child(1):hover{
+    border: 1px solid #fff;
+}
+.btn{
+    background: rgb(223, 80, 80);
+    color: #fff;
+    padding: 15px 30px;
+    font-size: 19px;;
+    margin-top: 30px;;
+}
+.first-child p:nth-child(1){
+    font-size: 50px;;
+    font-weight: bolder;
+    color: #fff;
+    font-family: "Montserrat";
+    line-height: 80px;;
+}
+.first-child p:nth-child(2){
+    font-size: 16px;;
+    color: rgb(233, 227, 227);
+    line-height: 30px;;
+    margin-bottom: 40px;;
+    margin-top: 40px;;
+}
+.first-child{
+    margin: 100px 0px;
+}
+.button{
+    background: transparent;
+    color: #fff;
+    padding: 15px 30px;
+    font-size: 19px;;
+    margin-top: 30px;;
+    border: 1px solid #000;
+    margin-right: 30px;;
+    margin-left: 30px;;
+    border: 1px solid #fff;
+}
+.second-child{
+    color: #fff;
+    margin-top: 150px;;
+}
+.second-child div:nth-child(2){
+    display: flex;
+}
+#play-btn img{
+    margin: 120px 150px;
+}
+.second-child div:nth-child(2) p{
+    font-size: 25px;;
+}
+.second-child div:nth-child(2) img:nth-child(1){
+    margin-bottom: 80px;
+    width: 80px;
+    margin-right: 40px;;
+} 
+#r-arrow{
+    margin-top: 70px;
+    width: 80px;
+}
+#popular{
+    text-align: center;
+    font-family: 'Montserrat';
+    font-size: 44px;;
+    font-weight: bolder;
+    margin: 100px 600px 60px 600px;
+    line-height: 60px;;
+}
+#game{
+    display: flex;
+    justify-content: center;
+}
+.avenger{
+    width: 400px;
+    height: 400px;
+}
+.gaming{
+    margin-right: 30px;;
+}
+#card1{
+    background-color: rgb(74, 78, 57);
+}
+#card2{
+    background-color: rgb(53, 54, 51);
+}
+#card3{
+    background-color: rgb(77, 90, 103);
+}
+#card4{
+    background-color: rgb(106, 71, 60);
+}
+.game-avenger{
+    display: flex;
+}
+.btns{
+    background: rgb(223, 80, 80);
+    color: #fff;
+    padding: 15px 30px;
+    font-size: 19px;;
+    margin-top: 30px;
+    border: none;
+}
+.game-avenger p:nth-child(1){
+    color: #fff;
+    font-size: 20px;;
+    margin-bottom: 10px;;
+}
+.game-avenger p:nth-child(2){
+    color: rgb(205, 201, 201);
+    margin-bottom: 10px;;
+}
+.game-avenger{
+    padding: 15px;
+    gap: 50px;
+}
+.game-avenger img{
+    height: 16px;;
+}
+#second-sec{
+    display: flex;
+    justify-content: center;
+    margin: 150px 150px;
+}
+#second-sec img{
+    height: 400px;
+    width: 600px;
+}
+#description{
+    margin: 40px 200px;
+}
+#description p:nth-child(1){
+    font-size: 40px;;
+    font-weight: bolder;
+    color: rgb(0, 0, 0);
+    font-family: "Montserrat";
+    line-height: 50px;
+    text-align: left;
+}
+#description p:nth-child(2){
+    font-size: 17px;;
+    font-weight: bold;
+    color: rgb(86, 84, 84);
+    /* font-family: "Montserrat"; */
+    line-height: 30px;
+    text-align: left;
+    margin-top: 30px;;
+    margin-bottom: 30px;;
+}
+.explore{
+    background: rgb(223, 80, 80);
+    color: #fff;
+    padding: 15px 30px;
+    font-size: 19px;;
+    margin-top: 30px;
+    border: none;
+}
+#more{
+    border: 2px solid rgb(223, 80, 80);
+    color: rgb(223, 80, 80);
+    padding: 15px 30px;
+    font-size: 19px;;
+    margin-top: 30px;
+    background-color: #fff;
+    margin-left: 10px;;
+}
+#third-sec{
+    display: flex;
+    margin: 0px 150px;
+    margin-bottom: 100px;;
+    gap: 900px;
+}
+#third-sec p{
+    font-weight: bolder;
+    font-size: 44px;
+    font-family: "Montserrat";
+}
+#arrow-part{
+    display: flex;
+}
+.left-arrow{
+    background-color: rgb(226, 202, 202);
+    margin-right: 10px;;
+    padding: 15px 20px;
+}
+.right-arrow{
+    background-color: rgb(229, 103, 103);
+    padding: 20px 20px;
+}
+.left-arrow img{
+    width:60px;
+    padding-top: 20px;
+}
+.right-arrow img{
+    padding-top: 20px;
+}
+#fourth-sec, #fifth-sec, .adventure{
+    display: flex;
+}
+#fourth-sec, #fifth-sec{
+    justify-content: center;
+    margin: 20px 150px;;
+    gap: 130px;
+}
+.adventure img{
+    width: 350px;
+    height: 350px;
+}
+.top-para{
+    font-weight: bolder;;
+    font-size: 26px;;
+}
+.middle-para{
+    font-size: 18px;;
+    color: rgb(229, 103, 103);
+    font-weight: bold;
+    margin-top: 20px;;
+    margin-bottom: 20px;;
+}
+.bottom-para{
+    font-size: 17px;;
+    color: rgb(55, 52, 52);
+    line-height: 27px;;
+}
+.adventure div:nth-child(2){
+    width: 400px;
+    margin-left: 30px;
+    margin-top: 43px;;
+}
+#fifth-sec{
+    margin-bottom: 100px;;
+    margin-top: 100px;
+}
+#sixth-sec{
+    background-color: #000;
+}
+#sixth-sec h3{
+    color: #fff;
+    text-align: center;
+    font-size: 43px;;
+    padding-top: 60px;;
+    line-height: 56px;;
+}
+#sixth-sec p{
+    color:rgb(168, 161, 161);
+    line-height: 30px;;
+    margin-left: 38%;
+    margin-top: 100px;; 
+}
+#world{
+    margin-left: 700px;;
+    margin-top: 50px;;
+    height: 90px;
+}
+#animation{
+    display: flex;
+    margin: 0px 100px;
+    justify-content: center;
+}
+#animation img:nth-child(1){
+    height:600px;
+    width:500px;
+    margin-right: 40px;
+    position: relative;
+    bottom: 200px;
+    right: 150px;
+}
+#animation img:nth-child(2){
+    height:500px;
+    width:350px;
+    margin-right: 110px;;
+    position: relative;
+    bottom: 30px;
+}
+#animation img:nth-child(3){
+    height:400px;
+    width:400px;
+    margin-top: 150px;;
+}
+#seventh-sec{
+    background-image: url("./assets/Rectangle\ 606.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#seventh-sec p:nth-child(1){
+    color: #fff;
+    font-size: 30px; 
+    text-align: center;
+    font-weight: bold;
+    padding-top: 100px;;
+
+}
+
+
+
+
+
+
+
