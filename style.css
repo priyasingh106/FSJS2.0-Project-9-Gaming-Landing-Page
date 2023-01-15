@@ -65,7 +65,7 @@ ul li:nth-child(4){
     margin-top: 30px;;
 }
 .first-child p:nth-child(1){
-    font-size: 50px;;
+    font-size: 37px;;
     font-weight: bolder;
     color: #fff;
     font-family: "Montserrat";
@@ -94,16 +94,16 @@ ul li:nth-child(4){
 }
 .second-child{
     color: #fff;
-    margin-top: 150px;;
+    margin-top: 60px;;
 }
 .second-child div:nth-child(2){
     display: flex;
 }
 #play-btn img{
-    margin: 120px 150px;
+    margin: 60px 100px;
 }
 .second-child div:nth-child(2) p{
-    font-size: 25px;;
+    font-size: 25px;
 }
 .second-child div:nth-child(2) img:nth-child(1){
     margin-bottom: 80px;
@@ -175,17 +175,17 @@ ul li:nth-child(4){
 #second-sec{
     display: flex;
     justify-content: center;
-    margin: 150px 150px;
+    margin: 150px 100px;
 }
 #second-sec img{
     height: 400px;
-    width: 600px;
+    width: 500px;
 }
 #description{
-    margin: 40px 200px;
+    /* margin: 40px 200px; */
 }
 #description p:nth-child(1){
-    font-size: 40px;;
+    font-size: 35px;;
     font-weight: bolder;
     color: rgb(0, 0, 0);
     font-family: "Montserrat";
@@ -223,7 +223,7 @@ ul li:nth-child(4){
     display: flex;
     margin: 0px 110px;
     margin-bottom: 100px;;
-    gap: 400px;
+    gap: 500px;
 }
 #third-sec p{
     font-weight: bolder;
