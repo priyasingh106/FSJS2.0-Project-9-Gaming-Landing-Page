@@ -303,7 +303,7 @@ ul li:nth-child(4){
     margin-top: 100px;; 
 }
 #world{
-    margin-left: 700px;;
+    margin-left: 600px;;
     margin-top: 50px;;
     height: 90px;
 }
@@ -318,7 +318,7 @@ ul li:nth-child(4){
     margin-right: 40px;
     position: relative;
     bottom: 200px;
-    right: 150px;
+    right: 110px;
 }
 #animation img:nth-child(2){
     height:500px;
@@ -335,6 +335,7 @@ ul li:nth-child(4){
 #seventh-sec{
     background-image: url("./assets/Rectangle\ 606.png");
     background-repeat: no-repeat;
+    background-position:  center;
     background-size: cover;
     /* padding:  30px 0px 60px 0px */
     height: 700px;
@@ -358,7 +359,7 @@ ul li:nth-child(4){
     line-height: 45px;;
 }
 #seventh-sec button{
-    margin: 0px 45%;
+    margin: 0px 40%;
     margin-top: 20px;;
     /* padding-bottom: 90px;; */
 }
