@@ -221,13 +221,13 @@ ul li:nth-child(4){
 }
 #third-sec{
     display: flex;
-    margin: 0px 150px;
+    margin: 0px 110px;
     margin-bottom: 100px;;
-    gap: 900px;
+    gap: 400px;
 }
 #third-sec p{
     font-weight: bolder;
-    font-size: 44px;
+    font-size: 30px;
     font-family: "Montserrat";
 }
 #arrow-part{
@@ -236,15 +236,20 @@ ul li:nth-child(4){
 .left-arrow{
     background-color: rgb(226, 202, 202);
     margin-right: 10px;;
-    padding: 15px 20px;
+    height: 50px;
+    width: 60px;
+    padding: 10px;
 }
 .right-arrow{
     background-color: rgb(229, 103, 103);
-    padding: 20px 20px;
+    height: 50px;
+    width: 60px;
+    padding: 10px;
 }
 .left-arrow img{
     width:60px;
-    padding-top: 20px;
+
+    padding-top: 14px;
 }
 .right-arrow img{
     padding-top: 20px;
@@ -305,7 +310,7 @@ ul li:nth-child(4){
 #world{
     margin-left: 550px;;
     margin-top: 50px;;
-    height: 60px;
+    height: 70px;
 }
 #animation{
     display: flex;
@@ -313,9 +318,10 @@ ul li:nth-child(4){
     justify-content: center;
 }
 #animation img:nth-child(1){
-    height:600px;
-    width:500px;
+    height:500px;
+    width:450px;
     margin-right: 20px;
+    margin-left: 20px;
     position: relative;
     bottom: 200px;
     right: 110px;
@@ -407,4 +413,7 @@ footer p{
 footer span{
     color: #fff;
     font-size: 20px;;
+}
+#fourth-sec{
+    margin: 20px 50px;
 }
