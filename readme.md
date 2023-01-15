@@ -6,5 +6,6 @@
 - Also learned about CSS box model.
 - I took 1 days to complete it.
 
+### [Project Live Link ](https://loquacious-capybara-b34e33.netlify.app/)
 
 ![Project](./Gaming%20Landing%20Page.png)
